@@ -1,0 +1,24 @@
+{
+  "name": "altona",
+  "version": "1.0.0",
+  "description": "Landing page for Altona",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9jaswag/altona.git"
+  },
+  "keywords": [
+    "landing page",
+    "node",
+    "javascript"
+  ],
+  "author": "Chuks Opia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9jaswag/altona/issues"
+  },
+  "homepage": "https://github.com/9jaswag/altona#readme"
+}
