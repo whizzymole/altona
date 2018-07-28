@@ -127,7 +127,7 @@ img {
 }
 
 .offer-wrapper {
-  margin: 4rem 1.5rem 0rem;
+  margin: 4rem 2.5rem 0rem;
 }
 
 .offer-wrapper h1 {
@@ -144,11 +144,12 @@ img {
 }
 
 .contact-wrapper {
-  margin-left: 1.5rem
+  margin-left: 2.5rem
 }
 
 .btn-text {
   display: inline-block;
+  margin-top: 1rem
 }
 
 .contact-details {
@@ -262,11 +263,15 @@ img {
   }
 
   .offer-wrapper {
-    margin: 15rem 2rem 0;
+    margin: 15rem 6rem 0;
   }
 
   .contact-wrapper {
-    margin-left: 2rem
+    margin-left: 6rem
+  }
+  
+  .btn-text {
+    margin-top: 2rem
   }
 
   .overlay-left {
