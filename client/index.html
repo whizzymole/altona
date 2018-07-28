@@ -12,13 +12,17 @@
 <body>
   <!-- modal -->
   <div id="modal" class="modal">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-    </div>
     <div class="modal-content">
-      <div class="form-wrapper">
-        <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off">
-        <button class="btn margin-top">Submit</button>
+      <div class="modal-header">
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="form-wrapper">
+          <form action="" id="sub-form">
+            <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off" required>
+            <button type="submit" class="btn margin-top">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
