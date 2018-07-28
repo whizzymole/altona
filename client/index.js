@@ -20,5 +20,16 @@ window.onclick = (event) => {
 
 form.onsubmit = (event) => {
   event.preventDefault();
-  console.log(email.value)
+
+  if (email.value.trim().length > 0) {
+    fetch('/subscribe', {
+      method: 'POST',
+      body: JSON.stringify({ email: email.value }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(res => res.json())
+      .catch(error => console.error('Error:', error))
+      .then(response => console.log('Success:', response));
+  }
 }
