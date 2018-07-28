@@ -29,7 +29,7 @@ module.exports = {
     });
   },
   downloadMessage: function (host) {
-    return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Georgia'">
+    return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Arial'">
     <div style="width: 50vw; background: #FFF; display: block; margin: 0 auto; padding: 0; border: 1px solid #c39a6e;">
       <div style=" background: #00bfa5;">
         <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">Altona Brochure</h2>
@@ -44,7 +44,7 @@ module.exports = {
   </div>`;
   },
   subscriptionMessage: function (email) {
-    return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Georgia'">
+    return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Arial'">
     <div style="width: 50vw; background: #FFF; display: block; margin: 0 auto; padding: 0; border: 1px solid #c39a6e;">
       <div style=" background: #00bfa5;">
         <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">Altona Email Subscription</h2>
