@@ -164,21 +164,20 @@ img {
 }
 
 .modal {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 1;
   width: 90%;
   /* height: 40vh; */
   overflow: auto;
-  display: block;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* margin-top: -20vh; Negative half of height. */
   /* margin-left: -45%; Negative of half width */
-  /* background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4); */
   background: white;
+  animation-name: animatetop;
+  animation-duration: 0.5s
 }
 
 .modal-header {
@@ -202,6 +201,7 @@ img {
   color: #aaa;
   font-size: 2rem;
   font-family: 'Gotham Light';
+  user-select: none;
 }
 
 .close:hover,
@@ -209,6 +209,11 @@ img {
   color: #c39a6e;
   text-decoration: none;
   cursor: pointer;
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 40%; opacity: 1}
 }
 
 #email {
@@ -221,7 +226,7 @@ img {
   font-size: 0.8rem;  
 }
 
-#email:focus {
+#email:focus, button:focus {
   outline: none;
 }
 
