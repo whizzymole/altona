@@ -25,6 +25,7 @@ body {
   background-position: top center;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 img {
@@ -60,7 +61,7 @@ img {
 }
 
 .overlay-right {
-  opacity: .6;
+  opacity: .7;
 }
 
 .box {
@@ -195,5 +196,13 @@ img {
 
   .contact-wrapper {
     margin-left: 2rem
+  }
+
+  .overlay-left {
+    opacity: .5;
+  }
+  
+  .overlay-right {
+    opacity: .6;
   }
 }
