@@ -15,7 +15,7 @@ module.exports = {
     const mailOptions = {
       from: `AbigailMichael <${process.env.EMAIL_ADDRESS}>`,
       to: email,
-      subject: 'Altona Email Subscription',
+      subject: 'The Altona Email Subscription',
       html: message
     };
 
@@ -36,7 +36,7 @@ module.exports = {
       </div>
       <div style="text-align: center; padding: 0.5rem;">
         <p style="font-size: 1rem;">Hello there,</p>
-        <p style="font-size: 1rem;">Here's your Altona on McDonald Brochure</p>
+        <p style="font-size: 1rem;">Here's your The Altona on McDonald Brochure</p>
         <a style="padding: 0.7rem 2rem; background: #c39a6e; color: white; text-decoration: none; border-radius: 2px;" href="${host}/brochure.pdf">DOWNLOAD</a>
         <p style="padding: 0.5rem;"></p>
       </div>
