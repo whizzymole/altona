@@ -32,11 +32,11 @@ module.exports = {
     return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Arial'">
     <div style="width: 50vw; background: #FFF; display: block; margin: 0 auto; padding: 0; border: 1px solid #c39a6e;">
       <div style=" background: #00bfa5;">
-        <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">Altona Brochure</h2>
+        <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">The Altona Brochure</h2>
       </div>
       <div style="text-align: center; padding: 0.5rem;">
         <p style="font-size: 1rem;">Hello there,</p>
-        <p style="font-size: 1rem;">Here's your The Altona on McDonald Brochure</p>
+        <p style="font-size: 1rem;">Here's The Altona on McDonald Brochure</p>
         <a style="padding: 0.7rem 2rem; background: #c39a6e; color: white; text-decoration: none; border-radius: 2px;" href="${host}/brochure.pdf">DOWNLOAD</a>
         <p style="padding: 0.5rem;"></p>
       </div>
@@ -47,7 +47,7 @@ module.exports = {
     return `<div style="background: #fff; width: 100%; height: 100%; padding: 3rem 0; font-family: 'Arial'">
     <div style="width: 50vw; background: #FFF; display: block; margin: 0 auto; padding: 0; border: 1px solid #c39a6e;">
       <div style=" background: #00bfa5;">
-        <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">Altona Email Subscription</h2>
+        <h2 style="color: white; text-align: center; line-height: 10vh; background: #c39a6e; margin: 0;">The Altona Email Subscription</h2>
       </div>
       <div style="text-align: center; padding: 0.5rem;">
         <p style="font-size: 1rem;">Hello AbigailMichael,</p>
