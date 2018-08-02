@@ -13,7 +13,7 @@ module.exports = {
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_ADDRESS,
+      from: `AbigailMichael <${process.env.EMAIL_ADDRESS}>`,
       to: email,
       subject: 'Altona Email Subscription',
       html: message
