@@ -248,6 +248,26 @@ img {
   .box-wrapper.right {
     text-align: center;
   }
+
+  body {
+    overflow: auto;
+  }
+
+  .box-wrapper {
+    height: unset;
+  }
+
+  .box-wrapper.right {
+    height: 80vh;
+  }
+
+  .contact-wrapper {
+    margin-left: unset;
+  }
+
+  .teaser h3 {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 768px) {
